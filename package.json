@@ -6,6 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "install:apk": "adb install ~/work/BAK/taro3/taro-native-shell/android/app/build/outputs/apk/release/app-release.apk",
     "test": "jest",
     "lint": "eslint ."
   },
